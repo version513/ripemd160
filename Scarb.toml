@@ -1,0 +1,13 @@
+[package]
+name = "ripemd_160"
+version = "0.1.0"
+cairo-version = "2.7.0"
+authors = ["version513 <seuair@gmail.com>"]
+
+
+[dependencies]
+alexandria_data_structures = { git = "https://github.com/keep-starknet-strange/alexandria.git", rev = "8208871" }
+alexandria_math = { git = "https://github.com/keep-starknet-strange/alexandria.git", rev = "8208871" }
+
+[dev-dependencies]
+cairo_test = "2.7.0"
